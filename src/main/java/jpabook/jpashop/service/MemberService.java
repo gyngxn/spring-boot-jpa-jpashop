@@ -14,9 +14,10 @@ import java.util.List;
 @RequiredArgsConstructor
 public class MemberService {
 
-//    필드 주입
-//    @Autowired
-//    MemberRepository memberRepository;
+    /**
+     * 필드 주입
+     * @Autowired MemberRepository memberRepository;
+     */
 
     //생성자 주입
     private final MemberRepository memberRepository;
